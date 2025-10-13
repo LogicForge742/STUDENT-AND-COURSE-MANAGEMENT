@@ -1,0 +1,16 @@
+# Virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.qodo/
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+mypy_cache/
+tox/
+pip-wheel-metadata/
+Pipfile.lock
+poetry.lock
