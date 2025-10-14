@@ -8,7 +8,7 @@ A student can enroll in multiple courses (many-to-many relationship).
 from sqlalchemy import Column, Integer, String, DateTime
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
-from database.connection import Base
+from lib.db import Base
 
 class Student(Base):
     """

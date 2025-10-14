@@ -9,7 +9,7 @@ Also stores additional enrollment data like grade and enrollment date.
 from sqlalchemy import Column, Integer, String, DateTime, ForeignKey, UniqueConstraint
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
-from database.connection import Base
+from lib.db import Base
 
 class Enrollment(Base):
     """
