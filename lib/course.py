@@ -10,6 +10,7 @@ from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
 from lib.db import Base
 
+
 class Course(Base):
     """
     Course Model
